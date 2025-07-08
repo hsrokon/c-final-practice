@@ -1,7 +1,7 @@
 #include <stdio.h>
-#define max_students 100
+
 int main() {
-    /*int arr[] = {3, 8, 1, 7, 2};
+    int arr[] = {3, 8, 1, 7, 2};
     int *p = arr;
 
     int max = p[0];
@@ -13,7 +13,5 @@ int main() {
     }
 
     printf("Maximum element: %d\n", max);
-    */
-    printf("%d", max_students);
     return 0;
 }

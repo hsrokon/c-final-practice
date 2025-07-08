@@ -22,8 +22,13 @@ struct studentInfo {
 int main (){
     int n;
     struct studentInfo students[max_students];
-    printf("Enter students number\n");
+    printf("Enter students number:\n");
     scanf("%d", &n);
+
+    if(n<=0){
+        printf("Student number needs to be more than ZERO!\n");
+        return;
+    }
 
     inputStudentInfo(students, n);
     displayStudentInfo(students, n);
